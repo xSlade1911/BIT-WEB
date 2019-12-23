@@ -1,0 +1,28 @@
+tr {
+  color: red;
+  background-color: blue; }
+
+h2 {
+  color: red;
+  background-color: blue; }
+
+body {
+  width: 300px; }
+
+div h1 {
+  background-color: blue;
+  border: solid 5px black;
+  box-shadow: 30px 10px 18px yellowgreen; }
+
+td {
+  text-shadow: 30px 10px 10px #FF0000; }
+
+div h1 {
+  background-color: blue;
+  text-shadow: 30px 10px 10px #FF0000; }
+
+table td {
+  color: greenyellow;
+  border: dashed 2px black; }
+
+/*# sourceMappingURL=style2.css.map */

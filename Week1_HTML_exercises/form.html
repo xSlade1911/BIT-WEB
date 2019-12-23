@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forma</title>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+  </head>
+  <body>
+    <form action="">
+      <p>
+        Username:
+        <input type="text" name="username" size="15" maxlength="30" />
+      </p>
+      <p>
+        Password:
+        <input type="password" name="password" size="15" maxlength="30" />
+      </p>
+      <a href="reset.html">Forgot password</a>
+    </form>
+
+    <hr />
+
+    <form action="">
+      <h3>QUIZ:</h3>
+      <p>
+        Please select your favorite sport:
+        <br />
+        <input
+          type="radio"
+          name="sport"
+          value="tennis"
+          checked="checked"
+        />Tennis <input type="radio" name="sport" value="judo" />Judo
+        <input type="radio" name="sport" value="football" />Football
+      </p>
+      <p>
+        Please select your favorite painter(s):
+        <br />
+        <input
+          type="checkbox"
+          name="painter"
+          value="rembrandt"
+          checked="checked"
+        />Rembrandt
+        <input
+          type="checkbox"
+          name="painter"
+          value="leonardo da vinci"
+        />Leonardo Da Vinci
+        <input type="checkbox" name="painter" value="caravage" />Caravage
+      </p>
+      <p>
+        Please write a few words about yourself:
+        <br />
+        <textarea
+          name="comments"
+          cols="20"
+          rows="4"
+          placeholder="Enter your comments..."
+        ></textarea>
+      </p>
+    </form>
+
+    <hr />
+
+    <form action="">
+      <p>Please provide the day, month and year of birth:</p>
+      <select name="day">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <select name="month">
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+      </select>
+      <select name="year">
+        <option value="1973">1973</option>
+        <option value="1974">1974</option>
+        <option value="1975">1975</option>
+      </select>
+      <br />
+      <p>Please choose one or several categories below:</p>
+      <select name="categories" multiple="multiple" size="4">
+        <option value="kategorija 1" selected="selected">Kategorija 1</option>
+        <option value="kategorija 2">Kategorija 2</option>
+        <option value="kategorija 3" selected="selected">Kategorija 3</option>
+        <option value="kategorija 4">Kategorija 4</option>
+      </select>
+    </form>
+  </body>
+</html>

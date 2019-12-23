@@ -1,0 +1,43 @@
+
+p{
+
+    border: 3px solid #ccc;
+}
+
+
+div{
+    width: 60%;
+}
+
+#para1{
+
+    @extend p;
+    border-color: red;
+    width: 600px/960px*100%;
+    float: right;
+
+} 
+
+#para2{
+
+    @extend p;
+    border-color: blue;
+
+}
+
+#para3{
+
+    @extend p;
+    border-color: green;
+    width: 300px/960px*100%;
+    float: left;
+
+
+}
+
+
+
+
+
+
+

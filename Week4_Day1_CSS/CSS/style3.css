@@ -1,0 +1,20 @@
+p, #para1, #para2, #para3 {
+  border: 3px solid #ccc; }
+
+div {
+  width: 60%; }
+
+#para1 {
+  border-color: red;
+  width: 62.5%;
+  float: right; }
+
+#para2 {
+  border-color: blue; }
+
+#para3 {
+  border-color: green;
+  width: 31.25%;
+  float: left; }
+
+/*# sourceMappingURL=style3.css.map */

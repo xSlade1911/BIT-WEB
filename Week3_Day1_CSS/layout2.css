@@ -1,0 +1,60 @@
+
+body
+{
+    background-color: #ddd;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu {
+    padding: 10px;
+    background-color: orange;
+}
+
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+.menu > li.active {
+    background-color: rgb(200, 200, 200);
+}
+    
+
+.menu > li:hover {
+    background-color: #ddd ;
+}
+
+.menu > li ul {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+}
+
+.menu > li:hover ul {
+    display: block;
+}
+
+.menu > li ul li {
+    background-color: #fff;
+    min-width: 150px;
+    padding: 10px 20px;
+}
+
+.menu > li ul li:hover {
+    background-color: #ddd;
+}
+
+.menu li a:hover {
+    color: red;
+    text-decoration: none;
+
+}
+

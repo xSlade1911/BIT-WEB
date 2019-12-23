@@ -1,0 +1,31 @@
+
+@mixin shadow($tshadow){
+    text-shadow: $tshadow 10px 10px #FF0000;
+
+}
+
+@mixin box_shadow($bshadow){
+    box-shadow: $bshadow 10px 18px yellowgreen;
+}
+
+div {
+
+    h1 {
+        background-color: blue;
+        border: solid 5px black;
+        @include box_shadow(30px);
+
+}
+}
+
+td {
+    @include shadow(30px);
+}
+
+div {
+
+    h1 {
+        background-color: blue;
+        @include shadow(30px);
+    }
+}

@@ -1,0 +1,16 @@
+/* That's our limiter, you can adjust the height  */
+.wrapper { 
+    overflow: hidden; 
+    display: block; 
+    width: 100%; 
+} 
+ 
+/* To move our element  */
+.move { 
+    position: absolute; 
+    width: 150px; 
+    height: 150px; 
+    left: 0; 
+    top: 0; 
+    background-color: #333; 
+} 

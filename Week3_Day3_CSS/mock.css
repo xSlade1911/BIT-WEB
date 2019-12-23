@@ -1,0 +1,55 @@
+
+header {
+    height: 200px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 40px 25px 70px 0px;
+}
+#tekst {
+    float: left;
+    padding-top: 40px;
+    
+}
+#tekst h1{
+    font-size: 50px;
+    float: left;
+}
+main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    padding-bottom: 100px;
+    clear: both;
+    
+}
+main #levi {
+   float: left;
+   width: 40%;
+
+} 
+
+main #desni {
+    float: left;
+    width: 50%;
+    border-left: 2px solid ;
+    padding-left: 15px;
+ } 
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}

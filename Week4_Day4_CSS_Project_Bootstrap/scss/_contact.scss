@@ -1,0 +1,50 @@
+.row13 {
+    h1 {
+        text-align: center;
+        color: $blue;
+        font-size: 50px;
+        font-weight: bold;
+        padding-top:50px;
+    } 
+}
+.row14 {
+    .horizontal_left {
+        position: relative;
+        border: 1px solid $blue;
+        display: inline-block;
+        left:38.5%;
+        width:10%;
+    }
+    .horizontal_right {
+        position: relative;
+        border: 1px solid $blue;
+        display: inline-block;
+        left: 38.5%;
+        width:10%;
+        
+    }
+    img {
+    position: relative;
+    left:38.5%;
+    bottom:25%;
+    }
+}
+.row15 {
+    .c_input {
+        height: 70px;
+        width:100%;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    .t_input {
+        height: 200px;
+    }
+    .sumb_button {
+        border: 0;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        background-color: #18bc9c;
+    }
+    padding-bottom: 50px;
+}

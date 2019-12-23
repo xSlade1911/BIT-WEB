@@ -1,0 +1,41 @@
+#prvi {
+  color: darkturquoise;
+  background-color: green;
+  opacity: 0.5;
+}
+#drugi {
+  color: green;
+  background-color: rgba(0, 156, 201, 0.5);
+}
+#treci {
+  color: #00ced1;
+  background-color: yellow;
+}
+
+.opacity {
+  background-color: darkturquoise;
+  opacity: 0.3;
+}
+
+.rgba {
+  background-color: rgba(0, 206, 209, 0.3);
+}
+
+td:first-child {
+  background: aliceblue;
+}
+
+td:nth-child(2) {
+  background: hotpink;
+}
+
+td:nth-child(3) {
+  background: green;
+}
+
+td:nth-child(4) {
+  background: blue;
+}
+td:nth-child(5) {
+  background: red;
+}

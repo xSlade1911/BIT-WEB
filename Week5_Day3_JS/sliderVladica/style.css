@@ -1,0 +1,14 @@
+section.slider div {
+    display: none;
+    width: 500px;
+    height: 300px;
+    background: orange;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+section.slider div.active {
+    display: flex;
+}

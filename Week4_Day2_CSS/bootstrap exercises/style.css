@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+.col{
+    background: grey;
+}
+.red{
+    background: red;
+    border: 2px solid black;
+}
+.yellow{
+    background: yellow;
+    border: black 2px solid;
+}
+
+.row{
+    background: yellow;
+}
+.col-xl-8{
+    border: solid 2px black;
+}
+.col-xl-4{
+    border: solid 2px black;
+
+}

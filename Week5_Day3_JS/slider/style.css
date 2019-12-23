@@ -1,0 +1,14 @@
+section.slider div {
+  display: none;
+  width: 500px;
+  height: 300px;
+  background: orange;
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  line-height: 300px;
+}
+
+section.slider div.active {
+  display: block;
+}

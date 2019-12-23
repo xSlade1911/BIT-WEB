@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.row1{
+   background-image: url(./vezbanje/img/main-banner.jpg);
+}
+.row2 h4{
+    color: white;
+    
+}
+.row2 span {
+    color: #f7600f
+}
+.row3 {
+    text-align: center;
+    padding-top: 140px;
+}
+.row3 h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+.row3 span {
+    color: #f7600f;
+}
+.row3 p {
+    color: white;
+    font-size: 30px;
+}
+.razdvajac{
+   display: flex;
+   justify-content: space-between;
+}
+.wrapper{
+    height: 170px;
+    width: 170px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10%;
+    margin: 20% 0%;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.imga {
+
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.a_center {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.a_center a{
+    color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    
+    
+}
+
+.a_center a:hover {
+    background-color: #f7600f;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px; 
+    padding-bottom: 100px;
+}
+
+.subscribe2 {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding: 100px 0;
+}
+.subscribe2 input{
+    width:65%;
+    height: 43px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.subscribe2 a {
+    color: white;
+    border: 1px solid  #f7600f;
+    padding: 10px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: #f7600f;
+}
+
+.subscribe {
+    background-image: url(./vezbanje/img/newsletter-background.jpg);
+    height: auto;
+}
+
+.ourworks {
+    margin: 70px 0;
+    text-align: center;
+
+}
+
+.ourworks p {
+
+margin: 20px auto;
+width: 20%;
+}
+
+.ourworks span {
+    color: #f7600f;
+}
+
+.ourworks h3 {
+    font-size: 35px;
+}
+
+.portfolio_row1 {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    margin: auto;
+}
+.portfolio_row2 {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    margin: 40px auto;
+}
+
+.show_more {
+
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.show_more a {
+    color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 45px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.visina {
+    height: 400px;
+}

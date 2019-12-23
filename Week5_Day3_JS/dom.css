@@ -1,0 +1,27 @@
+.backgroundList {
+  background-color: red;
+}
+
+.backgroundElementList {
+  background-color: green;
+  margin: 2px;
+}
+
+.line0Class {
+  background-color: blue;
+  text-transform: uppercase;
+}
+
+.line1Class {
+  background-color: yellow;
+  text-transform: uppercase;
+}
+
+.line2Class {
+  background-color: magenta;
+  text-transform: uppercase;
+}
+
+.active {
+  background-color: pink;
+}

@@ -1,0 +1,74 @@
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.div7{
+    background-color: orangered;
+    
+}
+.div8 {
+    background-color: orchid;
+ 
+}
+.div9 {
+    background-color: palegreen;
+}
+
+.div1{
+    background-color: orangered;
+    z-index: 3;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  
+    
+}
+.div2 {
+    background-color: orchid;
+    z-index: 2;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+ 
+}
+.div3 {
+    background-color: palegreen;
+    z-index: 1;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+  
+}
+
+
+.wrapper {
+    position: relative;
+    left: 1130px;
+    top:0;
+}
+
+.div4{
+    background-color: orangered;
+    z-index: 1;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    
+}
+.div5 {
+    background-color: orchid;
+    z-index: 2;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+ 
+}
+.div6 {
+    background-color: palegreen;
+    z-index: 3;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}

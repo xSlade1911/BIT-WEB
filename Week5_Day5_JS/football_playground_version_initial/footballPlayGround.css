@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#field {
+  width: 100%;
+  position: relative;
+}
+#player {
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  left: 25px;
+  position: absolute;
+}
+
+#button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+}

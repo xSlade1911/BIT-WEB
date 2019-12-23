@@ -1,0 +1,28 @@
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: blue url(./images/bg.jpg) repeat-x bottom left;
+    height: 100vh;
+    position: relative;
+}
+
+.mario {
+    position: absolute;
+    background-size: cover;
+    top: 75%;
+    left: 42%;
+    width: 156px;
+    height: 156px;
+    background-image: url(./images/mario.png);
+   
+}
+
+.running {
+    background-image: url(./images/mario_running.gif);
+    background-size: 156px 156px;
+  
+}

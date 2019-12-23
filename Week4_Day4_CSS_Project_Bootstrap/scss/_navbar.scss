@@ -1,0 +1,22 @@
+.row1 {
+    color: $text_color_white;
+    background-color: $blue;
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        top:13%;
+    }
+    .menu {
+        position: relative;
+        top:25%;
+        list-style: none;
+    }
+    .sub_menu {
+        font-weight: bold;
+        display: inline;
+    }
+    .mid {
+        margin: 0px 10px;
+    }
+}

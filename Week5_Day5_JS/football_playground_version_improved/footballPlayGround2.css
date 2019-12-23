@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+#field {
+
+  /* The image used */
+  background-image: url("./images/field.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+}
+
+#player {
+  width: 100px;
+  height: 100px;
+}
+
+#button {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}

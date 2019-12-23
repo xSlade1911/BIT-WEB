@@ -1,0 +1,24 @@
+#photo {
+    width:100%;
+}
+
+.desc {
+    
+    display: flex;
+}
+
+.para{
+    width: 15%;
+    text-align: center;
+    line-height: 46px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+
+.para2{
+    width: 85%;
+    line-height: 46px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    
+}

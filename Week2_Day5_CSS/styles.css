@@ -1,0 +1,120 @@
+#voce{
+    list-style-type: circle;
+}
+
+#povrce{
+    list-style-type: square;
+}
+
+#atp{
+    list-style-type: upper-alpha;
+}
+
+#championsLeague{
+    list-style-type: upper-roman;
+}
+
+#shoppingList{
+    list-style-image: url(icon1.png);
+    /*padding-left: 100px;*/
+    width: 200px;
+
+}
+
+#vrsteOruzja{
+    list-style-image: url(icon2.png);
+    /*padding-left: 100px;*/
+    width: 200px;
+    list-style-position: inside;
+}
+#tabla{
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+#tr1{
+
+background-color: #DF0101;
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: 25px;
+
+}
+
+#tabla tr td{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+table tr:nth-child(odd) td {
+    background-color: lightgray;
+}
+
+
+table tr:hover td {
+    background-color: orange;
+}
+
+img {
+    height: 100px;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+
+}
+
+th{
+    padding: 10px;
+}
+
+#forma {
+    background: #E6E6E6;
+    width: 20%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    border-radius: 30px 0 30px 0;
+    
+
+}
+
+input {
+
+    width: 100%;
+    margin-top: 30px;
+    height: 35px;
+    border: 0;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: -1px 0px 13px 0px rgba(0,0,0,0.75);
+}
+
+h1{
+font-family: sans-serif;
+color: #0B0B61;
+text-align: center;
+
+}
+
+span{
+    color: orange;
+}
+
+#btn{
+    background-color: #B43104;
+    color: white;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}

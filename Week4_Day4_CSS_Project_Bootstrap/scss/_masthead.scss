@@ -1,0 +1,51 @@
+.row2 {
+    background-color: $green;
+    img {
+    margin-top: $margin_top_50*2;
+    margin-bottom: $margin_bot_50;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+}
+.row3 {
+    background-color: $green;
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        color: $text_color_white;
+        font-weight: bold;
+    }
+}
+.star {
+    background-color: $green;
+    hr {
+        border-bottom: 1px solid white;
+    }
+    .horizontal_left {
+        position: relative;
+        border: 1px solid $text_color_white;
+        display: inline-block;
+        left:38.5%;
+        width:10%;
+    }
+    .horizontal_right {
+        position: relative;
+        border: 1px solid $text_color_white;
+        display: inline-block;
+        left: 38.5%;
+        width:10%;
+        
+    }
+    img {
+    position: relative;
+    left:38.5%;
+    bottom:25%;
+    }
+}
+.row4 {
+    background-color: $green;
+    text-align: center;
+    color: $text_color_white;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,42 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.row1 h1{
+    text-align: center;
+    padding-top: 20px;
+} 
+
+.row2 hr {
+    border-bottom: 1px solid black; 
+}
+
+.row3 img {
+
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.row4 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em; 
+}
+
+.row5 {
+    text-align: center;
+}
+
+.row6 {
+    text-align: center; 
+    padding-bottom: 200px;
+}
+
+.row7 hr {
+    border-bottom: 1px solid black; 
+}
+

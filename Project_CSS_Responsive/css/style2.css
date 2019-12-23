@@ -1,0 +1,423 @@
+@font-face{
+    font-family: font1; /* ovde definisati svoj naziv za font*/
+    src: url(../fonts/Roboto-Regular.ttf);/* a ovde specifirati koji je font u pitanju*/
+}
+
+
+body{
+
+    font-family: font1;
+}
+
+header {
+
+    text-align: center;
+    color:white;
+    padding: 15px;
+    position: relative;/*bitno za centriranje sadrzaja*/
+}
+header h2{
+    
+    margin: 0 auto;
+    color: black;
+}
+header h2 span{
+
+    padding-left: 10px;
+    color: orange;
+    border: solid;
+    border-width: 2px 0 2px 2px;
+    border-color: black;
+}
+
+nav ul{ 
+    background-color: #079adf;
+    margin: 0 auto;
+    list-style: none;
+    width: 80%;
+}
+
+nav ul li {
+    margin-top:15px;
+    display: block;
+    padding: 13px;
+    width: 80%;
+}
+
+nav ul li a{ /*uvek treba da su linkovi deo menija inace nece moci da se klikne na njih*/
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+#headMain {
+    
+    background-image: url("../pictures/banner3.jpg");
+    height: 400px;
+    color: white;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+
+    
+}
+
+#headMain p {
+
+    padding-top: 25%;
+
+
+}
+
+#blueBox {
+
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: rgb(42, 154, 228);
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.razd {
+    display: inline-block;
+    width: 70%;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    margin: -40px 0px;
+    font-family: sans-serif;
+    left: 15%;
+    padding-top: 20px;
+}
+
+.razd h2{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.razd hr{
+    width: 25%;
+    margin: auto;
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+.razd hr::before{
+    content: "";
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: rotate(45deg) translate(-50%, 0% );
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+#firstUnder{
+
+    width: 70%;
+    left:15%;
+    display: block;
+    position: relative;
+}
+
+
+.main1{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin: 0px auto;
+    line-height: 25px;
+}
+
+.main1 img{
+    display: block;
+    width: 100%;
+    margin-top: 21.28px;
+}
+
+.main1 h3{
+    font-size: 23px;
+    color: #76b7ec;
+
+}
+.main1 p{
+    width: 95%;
+}
+
+.main1 ul{
+    list-style-image: url(../pictures/arrow_bullet.png); 
+    padding-left: 15px;
+    width: 95%;
+
+}
+
+
+.left
+{float:left}
+
+.right
+{float:right}
+
+.center
+{float:center}
+
+.checked {
+    color: orange;
+}
+
+
+
+
+
+#secondUnder{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.main2 {
+    line-height: 25px;
+    width: 80%;
+    background-color: #76b7ec;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+    padding: 35px;
+}
+
+
+
+
+#secondUnder ul {
+
+    list-style-type: none;
+    padding-left: 10px;
+    background-color: #76b7ec;
+    display: inline-block;
+    width: 50%;
+} 
+
+#secondUnder ul li{
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+
+
+.image{
+    margin-left: 15px;
+    border-radius: 50px;
+    width: 25%;
+    vertical-align:baseline;
+}
+
+.stars{
+    width: 50%;
+    display: block;
+}
+
+
+.contactPage li{
+    float: left;
+}
+
+li#contact{
+    background-color: rgb(39, 216, 134);
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding: 50px 45px;
+    height: 249.23px;
+    box-sizing: border-box;
+}
+
+li#connect{
+    background-color: rgb(219, 76, 155);
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding: 50px 50px 90.49px;
+    height: 249.23px;
+    box-sizing: border-box;
+}
+
+li#address{
+    background-color: rgb(18, 16, 109);
+    width: 50%;
+    color: white;
+    text-align: center;
+    height: 249.23px;
+    padding: 50px 12px 70.97px;
+    box-sizing: border-box;
+}
+
+li#house{
+    background-color: rgb(95, 92, 253);
+    width: 50%;
+    height: 249.23px;
+    line-height: 249.23px;
+    text-align: center;
+
+}
+
+#contactDiv ul {
+
+    list-style-type: none;
+    padding: 0;
+} 
+
+#contactPage ul li {
+
+    float: left;
+}
+
+#contact img {
+    display: inline-block;
+    height: 20px;
+    margin: 0 15px;
+}
+
+#connect img {
+    display: inline-block;
+    height: 20px;
+    margin: 0 15px;
+
+}
+
+#address img {
+    display: inline-block;
+    height: 20px;
+    margin: 0px;
+
+}
+
+#house img {
+ 
+    vertical-align: middle;
+    display: inline-block;
+    height: 95%;
+
+}
+
+
+iframe { 
+
+    margin-top: 0px;
+    width: 100%;
+    height: 600px;
+    clear: left;
+}
+
+.mytext {
+
+    height: 50px;
+    width: 20%;
+    padding: 13px 13px;
+    box-sizing: border-box;
+
+}
+
+#name {
+    margin-right: 20px;
+}
+
+#email{
+    margin-right: 20px;
+}
+
+
+#form {
+        margin-top: 50px;
+        text-align: center;
+
+    }
+
+#mytextarea {
+
+width: 63.5%;
+margin-top: 30px;
+height: 300px;
+padding: 13px 13px;
+box-sizing: border-box;
+}
+
+#buttoncontainer {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+#button{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    width: 20%;
+    height: 50px;
+    margin-top: 30px;
+    position: relative;
+    left: 18.2%;
+    top: 0px;
+
+}
+
+footer{
+   
+    background-color: #131111;
+    color: white;
+    margin: 0px auto;
+    padding: 25px;
+    display: block;
+    line-height: 50px;}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    margin: 0 auto;
+    
+    padding-left: 25px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+footer div{
+
+    display: block;
+    
+    }
+
+.copyright {
+
+    text-align: center;
+    margin: 0px auto 30px auto;
+}

@@ -1,0 +1,303 @@
+@import './variables';
+@import './global';
+@import './navbar';
+@import './masthead';
+@import './portfolio';
+@import './contact';
+
+
+
+//FOOTER//
+
+.row16 {
+    color: $text_color_white;
+    background-color: $blue;
+    padding-top: 20px;
+    .social {
+        position: relative;
+        right: 14%;
+        width: 100%;
+    }
+    .socialv2{
+        display: none;
+    }
+    padding-bottom: 30px;
+}
+.row17 {
+    background-color: $blue;
+    p {
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    color: $text_color_white;
+    }
+}
+//NAV BAR KOD SA NETA
+.navbar {
+    
+    background-color: $blue !important;
+    .navbar-toggler{
+        width:120px;
+    }
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: $text_color_white;
+    margin-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $text_color_white;
+    margin-left: 20px;
+}
+.navbar-light .navbar-toggler {
+    color: $text_color_white;
+    border-color: $text_color_white;
+}
+
+
+//RESPONSIVE
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .row1 {
+        text-align: center;
+        h1 {
+            margin-left: 20px;
+        }
+    }
+    .navbar {
+        display: block;
+    }
+    .row3 {
+        h1{
+          padding: 0 10%;  
+        }
+    }
+    .row4 {
+        p {
+            font-size: 20px;
+            padding: 0 20%; 
+        }
+    }
+    .row7 {
+        .port_img {
+            width:49%;
+        }
+       
+    }
+
+    .row8 {
+        
+        height:300px;
+        
+        .port_img {
+        width:49%;
+        }
+        #game {
+            position: relative;
+            bottom: 50%;
+            left:49.2%;
+        }
+        #safe {
+            position: relative;
+            right:49.2%;
+        }
+        #submarine {
+            position: relative;
+            bottom: 50%;
+            left:49.2%;
+        }
+    }
+    .row9 {
+        h1 {
+            margin-left: 30px;
+        }
+    }
+    .row12 {
+        
+        a {
+           left:43%; 
+        }
+    }
+    .row13 {
+        margin-left: 30px;
+    }
+    .row16 {
+        .atw {
+            h4 {
+                text-align: center;
+                padding: 0 10%;
+            }
+        }
+        .social{
+            display: none;
+        }
+        .socialv2{
+            display: block;
+            position: relative;
+            left: 20px;
+            bottom:20px;
+        }
+        .loc {
+            padding: 0px 0px 0px 50px;
+            h4{
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+        .md {
+            padding: 0 50px 0 0;
+            h4{
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+    .row17 {
+        p{
+            text-align: center;
+        }
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .row1 {
+        h1 {
+           
+            position: relative;
+            top: 5px;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .navbar .navbar-toggler {
+            position: relative;
+            left:20px;
+            span {
+                
+                font-size: 14px;
+            }
+            
+            width: 90px;
+        }
+        
+            .navbar-light .navbar-nav .nav-link.active {
+                position: relative;
+                right:224px;
+                font-weight: bold;
+            }
+            .navbar-light .navbar-nav .nav-link {
+                position: relative;
+                right:224px;
+                font-weight: bold;
+            }
+    }
+    .row3 {
+        h1 {
+            font-size: 30px;
+        }
+
+       
+        
+    }
+    .star {
+        
+        .horizontal_left {
+            position: relative;
+            left:60px;
+            width:80px;
+        }
+        .horizontal_right {
+            position: relative;
+            left:77px;
+            width:80px;
+        }
+        
+    }
+    .star img {
+        position: relative;
+        left: 20.5%; 
+    }
+        .row5 {
+            h1 {
+                font-size: 40px;
+            }
+            
+        }
+
+
+    .row6 {
+    .horizontal_right {
+        position: relative;
+            left:77px;
+            width:80px;
+    }
+    .horizontal_left {
+        position: relative;
+            left:60px;
+            width:80px;
+    }
+     img {
+        position: relative;
+        left: 20.5%; 
+    }
+    }
+    .row7 {
+        .port_img {
+            width:100%;
+        }
+    }
+    .row8 {
+        margin-bottom: -40px;
+        .port_img{
+            width: 100%;
+        }
+    }
+    .row10 {
+        
+        
+            .horizontal_left {
+                position: relative;
+                left:60px;
+                width:80px;
+            }
+            .horizontal_right {
+                position: relative;
+                left:77px;
+                width:80px;
+            }
+            
+       
+        img {
+            position: relative;
+            left: 20.5%; 
+        }
+    }
+    .row12 {
+        a {
+            position: relative;
+            left:32%;  
+        }
+    }
+    .row13 {
+        h1 {
+            font-size: 40px;
+        }
+        .horizontal_right {
+            position: relative;
+                left:77px;
+                width:80px;
+        }
+        .horizontal_left {
+            position: relative;
+                left:60px;
+                width:80px;
+        }
+         img {
+            position: relative;
+            left: 20.5%; 
+        }
+        
+    }
+}

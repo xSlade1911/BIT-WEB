@@ -1,0 +1,24 @@
+
+$font-color : red;
+$background-color : blue;
+$width: 300px;
+
+tr {
+
+    color : $font-color;
+    background-color: $background-color;
+
+}
+
+h2 {
+
+    color: $font-color;
+    background-color: $background-color;
+
+}
+
+body {
+    width: $width;
+}
+
+
